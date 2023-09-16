@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Schedule</title>
+    <style>
+        body {
+			color: white;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+			background-color: black;
+        }
+
+        .tour-entry {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+			border-radius: 40px;
+        }
+
+		.tour-entry div{
+			border-radius: 20px;
+		}
+
+        .tour-entry h2 {
+            padding: 5px 10px;
+            margin: 10px 0;
+        }
+
+        .details {
+            background-color: #1c3f5e;
+            padding: 10px;
+        }
+
+        .schedule {
+            background-color: #5b3a1c;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .hotel {
+            background-color: #14442b;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .notes {
+            background-color: #3c1031;;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .details span, .schedule span, .hotel span, .notes span {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hamburg -->
+<div class="tour-entry">
+    <h2>Hamburg: Saturday, 16th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Hamburg</span>
+        <span><strong>Venue:</strong> Hebeuhne</span>
+        <span><strong>Venue Address:</strong> Barnerstraße 30, 22765 Hamburg, Germany</span>
+        <span><strong>Contact:</strong> Linus Munz, Anne Theimer: +49 1511 979 00 27</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>17:00:</strong> Hutch Arrives</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>21:00:</strong> Gitkin</span>
+        <span><strong>22:30:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+        <span><strong>Hotel:</strong> Superbude Hotel Hamburg Altona</span>
+        <span><strong>Address:</strong> Paul-Dessau-Straße 2, 22761, Hamburg</span>
+        <span><strong>Booking Number:</strong> Under Names</span>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Phone Reception 040 855070 Rooming List 2x singles, 1 twin</span>
+        <span>Check-in possible from 15:00 Check-out until 12:00</span>
+        <span>Distance to venue 2 km, 5 min</span>
+        <span>Next day Drive: 188 Miles. Leave: 10:00 for Wash.</span>
+    </div>
+</div>
+
+<!-- Berlin -->
+<div class="tour-entry">
+    <h2>Berlin: Sunday, 17th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Berlin</span>
+        <span><strong>Venue:</strong> Kantine am Berghain</span>
+        <span><strong>Venue Address:</strong> Am Wriezener Bahnhof, 10243 Berlin</span>
+        <span><strong>Contact:</strong>Kostas: +49 157 80744621</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>15:45:</strong> Load In</span>
+        <span><strong>17:15 - 17:45:</strong> Sound check</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>20:00:</strong> Hutch</span>
+        <span><strong>20:50:</strong> Gitkin</span>
+        <span><strong>22:30:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+        <span><strong>Hotel:</strong> IP Hotel</span>
+        <span><strong>Address:</strong> Warschauer Str. 43, 10243 Berlin</span>
+        <span><strong>Check In:</strong> 14:00</span>
+        <span><strong>Check Out:</strong> 10:00</span>
+        <span><strong>Booking Number:</strong> #264075</span>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Dinner Buyout 20€ p.P</span>
+        <span>Next day drive: 363 miles. Leave: 09:30</span>
+    </div>
+</div>
+
+<!-- Cologne -->
+<div class="tour-entry">
+    <h2>Cologne: Monday, 18th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Cologne</span>
+        <span><strong>Venue:</strong> Yuca</span>
+        <span><strong>Venue Address:</strong>Bartholomäus-Schink-Straße 65, 50825 Köln</span>
+        <span><strong>Promoter:</strong>Daniel Weltner: 00491752729931</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 190 miles. Leave: 12:30</span>
+    </div>
+</div>
+
+<!-- Mannheim -->
+<div class="tour-entry">
+    <h2>Mannheim: Tuesday, 19th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Mannheim</span>
+        <span><strong>Venue:</strong> ALTE FEUERWACHE</span>
+        <span><strong>Venue Address:</strong>Brückenstraße 2, 68167 Mannheim</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>17:00:</strong> Sound Check</span>
+        <span><strong>18:00:</strong> Dinner</span>
+        <span><strong>20:00:</strong> Gitkin</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>500 Miles to London</span>
+    </div>
+</div>
+
+<!-- Days Off -->
+<div class="tour-entry">
+    <h2>Off: Wednesday 20th & Thursday 21st</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> London? Mannheim?</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Possible to go somewhere else!</span>
+    </div>
+</div>
+
+<!-- London -->
+<div class="tour-entry">
+    <h2>London: Friday, 22nd</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> London</span>
+        <span><strong>Venue:</strong> Lexington</span>
+        <span><strong>Venue Address:</strong>96-98 Pentonville Rd, London N1 9JB, United Kingdom</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next day drive: 60 miles. Leave 15:30</span>
+    </div>
+</div>
+
+<!-- Brighton -->
+<div class="tour-entry">
+    <h2>Brighton: Saturday, 23rd</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Brighton</span>
+        <span><strong>Venue:</strong> The Hope and Ruin</span>
+        <span><strong>Venue Address:</strong>11-12 Queens Rd, Brighton and Hove, Brighton BN1 3WA, United Kingdom</span>
+        <span><strong>Promoter:</strong> Polly: +447972736116</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>17:00:</strong> Load In</span>
+        <span><strong>17:30:</strong> Sound Check</span>
+        <span><strong>20:15:</strong> Doors</span>
+        <span><strong>20:30:</strong> Hutch</span>
+        <span><strong>21:45:</strong> Gitkin</span>
+        <span><strong>23:00:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Parking free after 18:00 Church Street. Single yellow line</span>
+		<span>Next day Drive: 190 Miles. Leave: Noon</span>
+    </div>
+</div>
+
+<!-- Norwich -->
+<div class="tour-entry">
+    <h2>Norwich: Sunday, 24th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Norwich</span>
+        <span><strong>Venue:</strong> Norwich Arts Center</span>
+        <span><strong>Venue Address:</strong>51 St Benedicts St, Norwich NR2 4PG, United Kingdom</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>17:00:</strong> Sound Check</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>19:30:</strong> Hutch</span>
+        <span><strong>20:30:</strong> Gitkin</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 125 Miles</span>
+		<span>Leave: 13:00</span>
+    </div>
+</div>
+
+<!-- Nottingham -->
+<div class="tour-entry">
+    <h2>Nottingham: Monday, 25th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Nottingham</span>
+        <span><strong>Venue:</strong> Bodgega</span>
+        <span><strong>Venue Address:</strong>23 Pelham Street, nottingham, NG1 2ED</span>
+        <span><strong>Promoter:</strong>Maddy Chamberlain: 07766384250</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>15:00:</strong> Load In</span>
+        <span><strong>16:00:</strong> Sound Check</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>19:45:</strong> Hutch</span>
+        <span><strong>20:45:</strong> Gitkin</span>
+        <span><strong>22:00:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 125 miles.</span>
+		<span>Leave: 13:30</span>
+    </div>
+</div>
+
+<!-- Birkkenhead -->
+<div class="tour-entry">
+    <h2>Birkkenhead: Tuesday, 26th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Birkkenhead</span>
+        <span><strong>Venue:</strong> Future Yard</span>
+        <span><strong>Venue Address:</strong>75 Argyle St, Birkenhead CH41 6AB, United Kingdom</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>17:00:</strong> Sound Check</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>19:30:</strong> Support 1</span>
+        <span><strong>20:30:</strong> Support 2</span>
+        <span><strong>21:30:</strong> Gitkin</span>
+        <span><strong>22:30:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 192 miles.</span>
+    </div>
+</div>
+
+<!-- Bristol -->
+<div class="tour-entry">
+    <h2>Bristol: Wednesday, 27th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Bristol</span>
+        <span><strong>Venue:</strong> ???</span>
+        <span><strong>Venue Address:</strong>???</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 170 miles.</span>
+    </div>
+</div>
+
+<!-- Manchester -->
+<div class="tour-entry">
+    <h2>Manchester: Thursday, 28th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Manchester</span>
+        <span><strong>Venue:</strong> Yes Basement</span>
+        <span><strong>Venue Address:</strong>38 Charles St, Manchester M1 7DB, United Kingdom</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Next Day Drive: 230  miles</span>
+        <span>Leave 11:00</span>
+    </div>
+</div>
+
+<!-- Edinburgh -->
+<div class="tour-entry">
+    <h2>Edinburgh: Friday, 29th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Edinburgh</span>
+        <span><strong>Venue:</strong> Sneaky Petes</span>
+        <span><strong>Venue Address:</strong>73 Cowgate, Edinburgh EH1 1 JW</span>
+        <span><strong>Contact:</strong>+441312251757</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>16:30:</strong> Sound Check</span>
+        <span><strong>19:00:</strong> Doors</span>
+        <span><strong>19:40:</strong> Hutch</span>
+        <span><strong>21:00:</strong> Gitkin</span>
+        <span><strong>22:00:</strong> Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Parking on Chambers St after Load-in. Park outside venue after 18:30</span>
+        <span>Next day drive: 50 miles. Leave: 15:00</span>
+    </div>
+</div>
+
+<!-- Glasgow -->
+<div class="tour-entry">
+    <h2>Glasgow: Friday, 29th</h2>
+    <div class="details">
+		<h3>Venue Details:</h3>
+        <span><strong>City:</strong> Glasgow</span>
+        <span><strong>Venue:</strong> Broadcast</span>
+        <span><strong>Venue Address:</strong>427 Sauchiehall St, Glasgow G2 3LG, United Kingdom</span>
+        <span><strong>Contact:</strong>+441312251757</span>
+    </div>
+    <div class="schedule">
+		<h3>Schedule:</h3>
+        <span><strong>16:00:</strong> Load In</span>
+        <span><strong>17:00:</strong> Sound Check</span>
+        <span><strong>19:30:</strong> Doors</span>
+        <span><strong>21:15:</strong> Gitkin</span>
+        <span><strong>22:00:</strong> Curfew</span>
+        <span><strong>03:00:</strong> Venue Curfew</span>
+    </div>
+    <div class="hotel">
+		<h3>Hotel Details:</h3>
+    </div>
+    <div class="notes">
+		<h3>Notes:</h3>
+        <span>Load in back Door</span>
+    </div>
+</div>
+
+</body>
+</html>
+
